@@ -21,7 +21,7 @@ export default defineConfig({
   //  plugins: [ nxViteTsPaths() ],
   // },
   build: {
-    outDir: '../../dist/apps/monotone',
+    outDir: './build/monotone',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
